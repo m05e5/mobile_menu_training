@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav, 
+#desktop-nav ul {
   display: none;
 }
 
@@ -437,7 +438,6 @@ textarea {
   height: 100vh;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.98);
-  /* background-color: black; */
   z-index: 3;
   flex-direction: column;
   border-width: 1px;
@@ -456,7 +456,6 @@ textarea {
   align-items: flex-start;
   justify-content: space-between;
   width: 85.3211009174312%;
-  /* margin-top: 24px; */
   margin-left: 2rem;
   margin-right: 2rem;
 }

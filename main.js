@@ -1,5 +1,4 @@
 const modalDisplay = () => {
-  console.log('hello')
   const modal = document.querySelector('.nav_modal-background');
   const opener = document.querySelector('#nav_modal-displayer');
   const closer = document.querySelector('.X');
@@ -10,7 +9,6 @@ const modalDisplay = () => {
   }
 
   function callp() {
-    console.log('visible');
     modal.style.visibility = 'visible';
   }
   modalNavLink.forEach((link) => {
@@ -19,3 +17,5 @@ const modalDisplay = () => {
   opener.onclick = callp;
   closer.onclick = closeModal;
 };
+
+modalDisplay();
