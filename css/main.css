@@ -471,7 +471,6 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* justify-content: start; */
   height: inherit;
 }
 
@@ -480,11 +479,10 @@ textarea {
   padding: 0;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   height: 50%;
 }
 
-.nav_ul li {
+.nav_li {
   text-align: start;
   font-size: 30px;
 }
